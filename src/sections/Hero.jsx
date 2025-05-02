@@ -7,6 +7,7 @@ import Button from "../components/Button";
 import { words } from "../constants";
 import HeroExperience from "../components/models/hero_models/HeroExperience";
 import AnimatedCounter from "../components/AnimatedCounter";
+import Quote from "./Quote";
 
 const Hero = () => {
   const [visitCount, setVisitCount] = useState(null);
@@ -111,6 +112,8 @@ const Hero = () => {
           </div>
         </figure>
       </div>
+
+      <Quote />
 
 
 
