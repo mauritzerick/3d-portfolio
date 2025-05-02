@@ -74,18 +74,18 @@ const navLinks = [
   const abilities = [
     {
       imgPath: "/images/seo.png",
-      title: "Quality Focus",
-      desc: "Delivering high-quality results while maintaining attention to every detail.",
+      title: "Code Quality & Precision",
+      desc: "Building robust, maintainable code with a strong emphasis on best practices and meticulous attention to detail.",
     },
     {
       imgPath: "/images/chat.png",
-      title: "Reliable Communication",
-      desc: "Keeping you updated at every step to ensure transparency and clarity.",
+      title: "Clear & Direct Communication",
+      desc: "Providing concise, straightforward updates to ensure transparency and keep everyone on the same page.",
     },
     {
       imgPath: "/images/time.png",
-      title: "On-Time Delivery",
-      desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+      title: "Reliable & Timely Delivery",
+      desc: "Prioritizing deadlines without compromising on quality—delivering features and fixes on time, every time.",
     },
   ];
   
