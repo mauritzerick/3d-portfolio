@@ -107,7 +107,7 @@ const navLinks = [
       imgPath: "/images/logos/three.png",
     },
     {
-      name: "Project Manager",
+      name: "Project Management",
       imgPath: "/images/logos/git.svg",
     },
   ];
@@ -138,7 +138,7 @@ const navLinks = [
       rotation: [0, 0, 0],
     },
     {
-      name: "Project Manager",
+      name: "Project Management",
       modelPath: "/models/git-svg-transformed.glb",
       scale: 0.03,
       rotation: [0, -Math.PI / 4, 0],
@@ -151,7 +151,7 @@ const navLinks = [
       imgPath: "/images/exp1.png",
       logoPath: "/images/logo1.png",
       title: "Frontend Developer",
-      date: "January 2023 - Present",
+      date: "January 2022 - Present",
       responsibilities: [
         "Developed and maintained user-facing features for the Hostinger website.",
         "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
@@ -159,7 +159,7 @@ const navLinks = [
       ],
     },
     {
-      review: "Mauritz’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+      review: "Mauritz’s contributions to Hello Clever's payment applications have been outstanding. He approaches challenges with a problem-solving mindset.",
       imgPath: "/images/exp2.png",
       logoPath: "/images/logo2.png",
       title: "Full Stack Developer",
