@@ -28,10 +28,10 @@ const Hero = () => {
           <div className="flex flex-col gap-7">
             <div className="hero-text">
               <h1>
-                Building
+                Fast
               </h1>
-              <h1>Real Results</h1>
-              <h1>From 
+              <h1>Precise</h1>
+              <h1>Powered by 
               <span className="slide">
                   <span className="wrapper">
                     {words.map((word, index) => (
@@ -53,7 +53,7 @@ const Hero = () => {
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Mauritz, a developer based in Melbourne, Australia!
+              Hi, I’m Mauritz, coding away from Australia! 🦘
             </p>
 
             <Button
