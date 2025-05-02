@@ -53,7 +53,7 @@ const AppShowcase = () => {
             </div>
             <div className="text-content">
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
+                (WIP) - On-Demand Rides Made Simple with a Powerful, User-Friendly App
                 called Ryde
               </h2>
               <p className="text-white-50 md:text-xl">
@@ -66,19 +66,45 @@ const AppShowcase = () => {
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#ffffff]">
+              <a
+                href="https://www.appliancesonline.com.au"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   src="/images/project5.png"
                   alt="AOL"
                 />
+              </a>
               </div>
-              <h2>Appliances Online Australia</h2>
+              <h2>
+                <a
+                  href="https://www.appliancesonline.com.au"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Appliances Online Australia
+                </a>
+              </h2>
             </div>
-
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFFFFF]">
+              <a
+                href="https://www.andoo.com.au"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src="/images/project4.png" alt="Andoo" />
+                </a>
               </div>
-              <h2>Andoo AU/NZ - Feel-good living</h2>
+              <h2>
+                <a
+                    href="https://www.andoo.co.nz"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >Andoo – Trusted Appliances Seller for Aussies & Kiwis
+                </a>
+                </h2>
             </div>
           </div>
         </div>
