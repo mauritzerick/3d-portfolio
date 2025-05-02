@@ -171,7 +171,7 @@ const navLinks = [
       ],
     },
     {
-      review: "Mauritz’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+      review: "Mauritz’s work on Hello Clever's operations brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
       imgPath: "/images/exp3.png",
       logoPath: "/images/logo3.png",
       title: "IT Operations Analyst",
