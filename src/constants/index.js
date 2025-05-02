@@ -162,7 +162,7 @@ const navLinks = [
       review: "Mauritz’s contributions to Hello Clever's payment applications have been outstanding. He approaches challenges with a problem-solving mindset.",
       imgPath: "/images/exp2.png",
       logoPath: "/images/logo2.png",
-      title: "Full Stack Developer",
+      title: "Integration Manager",
       date: "June 2020 - December 2022",
       responsibilities: [
         "Oversee and manage technical integrations with global payment platforms and partners.",
