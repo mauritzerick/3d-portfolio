@@ -29,8 +29,8 @@ const navLinks = [
   ];
   
   const counterItems = [
-    { value: 15, suffix: "+", label: "Years of Experience" },
-    { value: 200, suffix: "+", label: "Satisfied Clients" },
+    { value: 5, suffix: "+", label: "Years of Experience" },
+    { value: 100, suffix: "+", label: "Satisfied Colleagues" },
     { value: 108, suffix: "+", label: "Completed Projects" },
     { value: 90, suffix: "%", label: "Client Retention Rate" },
   ];
@@ -201,24 +201,24 @@ const navLinks = [
   
   const testimonials = [
     {
-      name: "Esther Howard",
+      name: "Vape King",
       mentions: "@estherhoward",
       review:
-        "I can’t say enough good things about Mauritz. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+        "Easy integration and support engineer is always responsive to assist me from onboarding, integration, and answering all of my questions. great round of applause from the King.",
       imgPath: "/images/client1.png",
     },
     {
-      name: "Wade Warren",
+      name: "Caroline Tran",
       mentions: "@wadewarren",
       review:
         "Working with Mauritz was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
       imgPath: "/images/client3.png",
     },
     {
-      name: "Guy Hawkins",
+      name: "SWC Clouds",
       mentions: "@guyhawkins",
       review:
-        "Collaborating with Mauritz was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Mauritz's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Mauritz is the ideal partner.",
+        "Great app so far, really easy to set up & use, customer support was great! Mauritz was great help! Highly recommended.",
       imgPath: "/images/client2.png",
     },
     {
