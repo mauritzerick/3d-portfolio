@@ -90,7 +90,7 @@ const Hero = () => {
                 <p>Loading...</p>
               )}
               <p>
-                Visitor Count API →{" "}
+                Node.js Visitor Count API  →{" "}
                 <a
                   href="https://visit-tracker-production.up.railway.app/api/visits"
                   target="_blank"
