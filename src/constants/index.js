@@ -171,7 +171,7 @@ const navLinks = [
       ],
     },
     {
-      review: "Mauritz’s work on Hello Clever's operations brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+      review: "Mauritz’s work on Hello Clever's operations brought a high level of quality and efficiency. He delivered solutions that enhanced our customers experience & meet our product goals.",
       imgPath: "/images/exp3.png",
       logoPath: "/images/logo3.png",
       title: "IT Operations Analyst",
@@ -208,10 +208,10 @@ const navLinks = [
       imgPath: "/images/client1.png",
     },
     {
-      name: "Caroline Tran",
+      name: "Nick Rivett",
       mentions: "@wadewarren",
       review:
-        "Working with Mauritz was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+        "Working with Mauritz was a fantastic experience. He transformed our website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
       imgPath: "/images/client3.png",
     },
     {
@@ -222,17 +222,17 @@ const navLinks = [
       imgPath: "/images/client2.png",
     },
     {
-      name: "Marvin McKinney",
+      name: "Reinard Surya",
       mentions: "@marvinmckinney",
       review:
         "Mauritz was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
       imgPath: "/images/client5.png",
     },
     {
-      name: "Floyd Miles",
+      name: "Rob Dunn",
       mentions: "@floydmiles",
       review:
-        "Mauritz’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
+        "Mauritz’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our appliances online site, creating reusable components which can be used across 5 sites!",
       imgPath: "/images/client4.png",
     },
     {
