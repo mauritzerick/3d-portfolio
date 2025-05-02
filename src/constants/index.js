@@ -91,19 +91,19 @@ const navLinks = [
   
   const techStackImgs = [
     {
-      name: "React Developer",
+      name: "Front-End Developer",
       imgPath: "/images/logos/react.png",
     },
     {
-      name: "Python Developer",
+      name: "Data Visualization",
       imgPath: "/images/logos/python.svg",
     },
     {
-      name: "Backend Developer",
+      name: "Back-End Developer",
       imgPath: "/images/logos/node.png",
     },
     {
-      name: "Interactive Developer",
+      name: "Software Architectures",
       imgPath: "/images/logos/three.png",
     },
     {
@@ -114,25 +114,25 @@ const navLinks = [
   
   const techStackIcons = [
     {
-      name: "React Developer",
+      name: "Front-End Developer",
       modelPath: "/models/react_logo-transformed.glb",
       scale: 0.5,
       rotation: [0, 0, 0],
     },
     {
-      name: "Python Developer",
+      name: "Data Visualization",
       modelPath: "/models/python-transformed.glb",
       scale: 0.5,
       rotation: [0, 0, 0],
     },
     {
-      name: "Backend Developer",
+      name: "Back-End Developer",
       modelPath: "/models/node-transformed.glb",
       scale: 3,
       rotation: [0, -Math.PI / 2, 0],
     },
     {
-      name: "Interactive Developer",
+      name: "Software Architectures",
       modelPath: "/models/three.js-transformed.glb",
       scale: 0.03,
       rotation: [0, 0, 0],
@@ -166,7 +166,7 @@ const navLinks = [
       date: "June 2020 - December 2023",
       responsibilities: [
         "Led the development of Docker's web applications, focusing on scalability.",
-        "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
+        "Worked with Back-End engineers to integrate APIs seamlessly with the frontend.",
         "Contributed to open-source projects that were used with the Docker ecosystem.",
       ],
     },
@@ -177,7 +177,7 @@ const navLinks = [
       title: "React Native Developer",
       date: "March 2019 - May 2020",
       responsibilities: [
-        "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
+        "Built cross-platform mobile apps using React Native, integrating with Appwrite's Back-End services.",
         "Improved app performance and user experience through code optimization and testing.",
         "Coordinated with the product team to implement features based on feedback.",
       ],
@@ -239,7 +239,7 @@ const navLinks = [
       name: "Albert Flores",
       mentions: "@albertflores",
       review:
-        "Mauritz was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+        "Mauritz was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and Back-End dev are top-notch.",
       imgPath: "/images/client6.png",
     },
   ];
