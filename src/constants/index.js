@@ -174,12 +174,12 @@ const navLinks = [
       review: "Mauritz’s work on Hello Clever's operations brought a high level of quality and efficiency. He delivered solutions that enhanced our customers experience & meet our product goals.",
       imgPath: "/images/exp3.png",
       logoPath: "/images/logo3.png",
-      title: "IT Operations Analyst",
+      title: "Integration Engineer / Developer",
       date: "March 2019 - May 2020",
       responsibilities: [
-        "Monitored and supported IT systems to ensure optimal uptime and performance.",
-        "Investigated and resolved technical incidents, escalating issues when necessary.",
-        "Collaborated with teams to implement process improvements and maintain system security.",
+        "Developed clear API and SDK documentation to support seamless integrations.",
+        "Assisted clients with technical onboarding, troubleshooting, and best practices.",
+        "Created tutorials, sample code, and knowledge base articles to streamline developer support.",
       ],
     },
   ];
@@ -236,7 +236,7 @@ const navLinks = [
       imgPath: "/images/client4.png",
     },
     {
-      name: "Albert Flores",
+      name: "Gajendra Singh",
       mentions: "@albertflores",
       review:
         "Mauritz was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and Back-End dev are top-notch.",
