@@ -246,6 +246,11 @@ const navLinks = [
   
   const socialImgs = [
     {
+      name: "github",
+      imgPath: "/images/github.png",
+      url: "https://github.com/mauritzerick?tab=repositories",
+    },
+    {
       name: "insta",
       imgPath: "/images/insta.png",
       url: "https://www.instagram.com/mauritzerick/",
