@@ -106,6 +106,25 @@ const AppShowcase = () => {
                 </a>
                 </h2>
             </div>
+            <div className="project" ref={ycDirectoryRef}>
+              <div className="image-wrapper bg-[#000000]">
+              <a
+                href="https://www.winnings.com.au"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/images/project6.png" alt="Winnings" />
+                </a>
+              </div>
+              <h2>
+                <a
+                    href="https://www.winnings.com.au"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >Winnings – World Leading Appliance Brands
+                </a>
+                </h2>
+            </div>
           </div>
         </div>
       </div>
