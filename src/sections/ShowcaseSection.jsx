@@ -54,7 +54,7 @@ const AppShowcase = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-              <img src="/images/project6.png" alt="Ryde App Interface" />
+              <img src="/images/project6.png" alt="Ryde App Interface" className="w-full h-auto" />
               </a>
             </div>
             <div className="text-content mb-20">
@@ -82,7 +82,7 @@ const AppShowcase = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-              <img src="/images/project5.png" alt="Ryde App Interface" />
+              <img src="/images/project5.png" alt="Ryde App Interface" className="w-full h-auto" />
               </a>
             </div>
             <div className="text-content">
@@ -115,7 +115,7 @@ const AppShowcase = () => {
               >
                 <img
                   src="/images/project7.png"
-                  alt="HC"
+                  alt="HC" className="w-full h-auto"
                 />
               </a>
               </div>
@@ -136,7 +136,7 @@ const AppShowcase = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/project4.png" alt="Andoo" />
+                <img src="/images/project4.png" alt="Andoo" className="w-full h-auto" />
                 </a>
               </div>
               <h2>
@@ -155,7 +155,7 @@ const AppShowcase = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/project8.png" alt="helloclever" />
+                <img src="/images/project8.png" alt="helloclever" className="w-full h-auto"/>
                 </a>
               </div>
               <h2>
