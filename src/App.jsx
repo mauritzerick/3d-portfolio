@@ -1,27 +1,16 @@
-import LogoSection from "./sections/LogoSection";
-import NavBar from "./components/NavBar";
-import FeatureCards from "./sections/FeatureCards";
-import Hero from "./sections/Hero";
-import ShowcaseSection from "./sections/ShowcaseSection";
-import ExperienceSection from "./sections/ExperienceSection";
-import TechStack from "./sections/TechStack";
-import Testimonials from "./sections/Testimonials";
-import Contact from "./sections/Contact";
-import Footer from "./sections/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import HomePage from "./Ferocia"; // assuming you renamed to HomePage
+import Portfolio from "./Portfolio";
+import HomePage from "./sections/Ferocia";
+
 
 const App = () => (
-  <>
-    <NavBar />
-    <Hero />
-    <ShowcaseSection />
-    {/* <LogoSection /> */}
-    <FeatureCards />
-    <ExperienceSection />
-    <TechStack />
-    <Testimonials />
-    <Contact />
-    <Footer />
-  </>
+  <Router>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/portfolio" element={<Portfolio />} />
+    </Routes>
+  </Router>
 );
 
 export default App;

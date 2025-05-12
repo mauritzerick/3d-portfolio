@@ -32,7 +32,7 @@ const navLinks = [
     { value: 5, suffix: "+", label: "Years of Experience" },
     { value: 100, suffix: "+", label: "Satisfied Colleagues" },
     { value: 58, suffix: "+", label: "Completed Projects" },
-    { value: 90, suffix: "%", label: "Client Retention Rate" },
+    { value: 90, suffix: "%", label: "Satisfied Clients" },
   ];
   
   const logoIconsList = [
