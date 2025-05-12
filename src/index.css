@@ -505,3 +505,18 @@ section {
     animation: floatConfetti 1.5s ease-out infinite;
   }
 }
+
+@layer utilities {
+  @keyframes bounce-slow {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-8px);
+    }
+  }
+
+  .animate-bounce-slow {
+    animation: bounce-slow 2s infinite;
+  }
+}
