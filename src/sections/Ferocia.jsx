@@ -1,5 +1,5 @@
-import React from "react";
 import { useNavigate } from "react-router-dom";
+import MagicAscii from "./MagicASCII";
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -8,38 +8,13 @@ const HomePage = () => {
     navigate("/portfolio");
   };
 
-  const asciiArt = `
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⠂⣠⣶⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣤⠞⠽⠿⠟⠻⠿⢻⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⡤⠒⠋⠉⠁⠀⠀⠀⠀⠀⠀⠈⠙⠓⢦⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠞⠁⠀⢀⣀⣀⡀⠀⠀⠀⠀⢀⣀⣀⣀⡀⠀⠙⣧⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⣼⠋⠀⢠⠞⠉⠀⠀⠈⠙⢦⣴⠟⠉⠀⠀⠀⠙⣧⠀⢸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⣠⡤⠶⢤⣼⡟⠀⢠⡟⠀⠀⠀⠀⠀⠀⠀⠉⠀⠀⢀⣀⣀⠀⢸⡆⢸⣷⣤⣴⣦⣤⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⣰⡏⣰⠿⠦⣌⣻⠀⢸⡇⣾⣻⡿⣷⠀⠀⠀⠀⠀⢀⣿⣯⣽⣷⣸⡇⠀⣿⣡⠾⠛⢷⢸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⢿⡆⣿⡀⢾⡟⠁⢀⣸⣿⣷⡿⢿⣿⠀⣠⡤⠤⣄⠘⣿⣿⣹⣿⣿⣧⡀⠙⠓⣶⣤⣾⣸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠻⣞⢷⡾⠁⣰⠟⠉⠉⠿⣷⣿⠟⢺⣥⣤⣤⣼⡆⠙⠻⠿⠟⠀⠉⢻⡆⣤⣿⡞⣣⠟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠈⠛⣿⡷⣇⠀⠀⠀⠀⣀⠀⠀⠀⠈⠉⠉⠀⠀⢀⣀⠀⠀⠀⠀⣸⡇⣼⡿⠿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠈⢷⡹⣄⠀⠀⠀⢻⡝⠓⠲⠤⣤⣤⠴⠚⢋⡿⠃⠀⠀⣠⡟⣰⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠈⠳⣝⣦⣀⠀⠀⠙⢶⣞⠉⠙⠋⠉⣹⡟⠁⢀⣠⣴⣿⡞⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣤⣄⡀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⣠⠾⠛⠛⠻⠦⠴⣦⣌⠙⠒⠛⣋⣽⠷⠞⠋⠉⠀⠀⠹⣦⠀⠀⠀⠀⠀⠀⠀⠀⢸⠋⠀⠀⠀⠹⡆
-⠀⠀⠀⠀⠀⠀⢀⡼⠋⠀⠀⠀⠀⠀⠀⠀⠉⠉⠉⠉⠉⠁⠀⠀⠀⠀⠀⠀⠀⠈⢷⡀⠀⠀⠀⠀⠀⠀⠘⣇⠀⠀⠀⠀⡷
-⠀⠀⠀⠀⠀⢀⣾⠁⠀⠀⠀⠀⢠⡀⣠⡶⠖⠒⠒⠒⠲⠦⣀⠀⠰⣤⠀⠀⠀⠀⠀⢳⡄⠀⠀⠀⠀⠀⢠⡿⠀⠀⠀⣴⠇
-⠀⠀⠀⠀⠀⣾⠃⠀⠀⠀⠀⠀⡿⢰⠏⠀⠀⠀⠀⠀⠀⠀⠘⣧⠀⢸⣧⠀⠀⠀⠀⠀⢻⡀⠀⠀⢀⣴⠟⠁⠀⢀⣼⠋⠀
-⠀⠀⠀⠀⢰⡟⠀⠀⠀⠀⠀⢰⠇⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡀⣸⠋⣧⠀⠀⠀⠀⠸⣇⣠⡶⠋⠁⠀⠀⣠⡾⠁⠀⠀
-⠀⠀⠀⠀⢸⡇⠀⠀⠀⠀⠀⣼⡀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣷⠇⠀⣹⡄⠀⠀⠀⠀⣿⠁⠀⠀⢀⣠⠾⠋⠀⠀⠀⠀
-⠀⠀⠀⠀⣿⡇⠀⠀⠀⠀⠀⢸⢿⣇⠀⠀⠀⠀⠀⠀⠀⠀⢀⣼⠟⠛⠛⢯⡇⠀⠀⠀⠀⣿⣧⠤⠞⠋⠀⠀⠀⠀⠀⠀⠀
-`
 
   return (
     <div className="min-h-screen bg-black text-white flex flex-col items-center justify-center px-4 py-12">
       {/* Horizontal row: ASCII - Image - ASCII */}
       <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12">
-        <pre className="text-purple-400 text-[10px] md:text-xs whitespace-pre leading-tight text-left hidden md:block animate-bounce-slow">
-        {asciiArt}
-        </pre>
+        <MagicAscii />
 
-
-        {/* Monkey Image with Confetti */}
         <div className="relative group flex flex-col items-center">
           <img
             src="/images/monkey.png"
@@ -69,9 +44,8 @@ const HomePage = () => {
         </div>
 
         
-        <pre className="text-purple-400 text-[10px] md:text-xs whitespace-pre leading-tight text-left hidden md:block animate-bounce-slow">
-        {asciiArt}
-        </pre>
+        <MagicAscii />
+
       </div>
 
       {/* Button directly below monkey */}
