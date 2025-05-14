@@ -153,7 +153,7 @@ const navLinks = [
       title: "Frontend Developer",
       date: "January 2022 - Present",
       responsibilities: [
-        "Developed and maintained user-facing features for the Hostinger website.",
+        "Developed and maintained user-facing features for the Appliances Online website.",
         "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
         "Optimized web applications for maximum speed and scalability.",
       ],
